@@ -1,0 +1,30 @@
+# letsupgrade-blockchain
+day 1 assignment:
+Q 1:What is your understanding of Blockchain?
+     Blockchain is a technique which can be used in all technologies to store data in a very secured manner which doesnot allow any haching.In any transacation, we are using             CRUD (create read update delete) options unlike this Blockchain come up with only two options CREATE and READ, which helps in avoiding another party entry.
+
+Q 2: What is the core problem blockchain tried to solve?
+   Blockhain is trying to solve internet problems, they are:
+   1.Authenticity
+   2.Security
+   3.Need of a powerful third party for trust.
+Q 3:What are the few features which Blockchain will give you?
+   1.Unchangeable
+   2.Verifiable
+   3.Immutable
+   4.Tamper-prrof
+   5.decentralized
+ 
+ Q 4:What all things does a Block Contain?
+     Block number
+     Previous Hash key
+     data that to be recorded
+     Mining key
+   
+Q 5:How is the verifiability of Block chain has been attained?
+     The same copy of data is stored in many systems(1000 systems for example), if one system is hacked and the data is changed then the hash key for the current wiil be                changed,this hacked system hash key is compared with other 999 systems hash key,so if one hash key is different that can be concluded that the system is hacked and thus            proved how we can veriry the system or network.
+     
+ 
+     
+  
+ 
