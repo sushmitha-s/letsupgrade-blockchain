@@ -1,0 +1,31 @@
+pragma solidity ^0.4.17;
+contract reportcard{
+    string public name;
+    string public rollno;
+    string public batch;
+    uint   public sub1marks;
+    string public sub1status;
+    uint   public sub2marks;
+    string public sub2status;
+    uint   public sub3marks;
+    string public sub3status;
+    uint   public sub4marks;
+    string public sub4status;
+    function reportcard(string newname,string newrollno,string newbatch,uint newsub1marks,string newsub1status,uint newsub2marks,string newsub2status,uint newsub3marks,string newsub3status,uint newsub4marks,string newsub4status) public{
+        name=newname;
+        rollno=newrollno;
+        batch=newbatch;
+        sub1marks=newsub1marks;
+        sub1status=newsub1status;
+        sub2marks=newsub2marks;
+        sub2status=newsub2status;
+        sub3marks=newsub3marks;
+        sub3status=newsub3status;
+        sub4marks=newsub4marks;
+        sub4status=newsub4status;
+    }
+    function getmarks() public view returns(uint,string,uint,string,uint,string,uint,string){
+       return(sub1marks,sub1status,sub2marks,sub2status,sub3marks,sub3status,sub4marks,sub4status); 
+    }
+    
+}
